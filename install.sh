@@ -5,11 +5,11 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 sudo cp -r "$SCRIPT_DIR/system/." /
 mkdir -p "$HOME"/{Desktop,Documents,Downloads,Music,Pictures,Projects,Public,Repos,Templates,Videos}
 
-sudo pacman -Syu --needed --no-confirm git base-devel
+sudo pacman -Syu --needed --noconfirm git base-devel
 rm -rf "$HOME/Repos/yay-bin"
 git clone https://aur.archlinux.org/yay-bin.git "$HOME/Repos/yay-bin"
-(cd "$HOME/Repos/yay-bin" && makepkg -si --no-confirm)
-xargs yay -S --needed --no-confirm < "$SCRIPT_DIR/pkgs.txt"
+(cd "$HOME/Repos/yay-bin" && makepkg -si --noconfirm)
+xargs yay -S --needed --noconfirm < "$SCRIPT_DIR/pkgs.txt"
 pacman -Qdtq | sudo pacman -Rns - || true
 pacman -Qq > "$SCRIPT_DIR/pkgs.lock"
 
