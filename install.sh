@@ -15,4 +15,9 @@ pacman -Qq > "$SCRIPT_DIR/pkgs.lock"
 
 cp -r "$SCRIPT_DIR/user/." "$HOME"
 git config --global user.signingkey "$HOME/.ssh/id_ed25519"
+
+rustup default stable
+cargo install bevy_brp_mcp@0.22.10 --locked
+cargo install dioxus-cli@0.7.10 --locked
+
 chsh -s "$(command -v fish)"
