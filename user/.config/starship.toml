@@ -1,0 +1,22 @@
+[character]
+success_symbol = '[╰─](cyan)'
+error_symbol = '[╰─](cyan)[󰰱](red)'
+
+[cmd_duration]
+format = '[$duration](white)'
+
+[directory]
+style = 'cyan'
+
+[hostname]
+ssh_only = false
+format = '[@](white)[$hostname](blue)[: ](white)'
+
+[time]
+format = "[󰣇 ](cyan)[$time](white)\n"
+time_format = '%r'
+disabled = false
+
+[username]
+format = '[╭─$user](cyan)'
+show_always = true

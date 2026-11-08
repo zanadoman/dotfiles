@@ -1,0 +1,10 @@
+[commit]
+	gpgsign = true
+[core]
+	editor = nvim
+	quotePath = false
+[gpg]
+	format = ssh
+[user]
+	email = domanseven@gmail.com
+	name = Domán Zana
