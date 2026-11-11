@@ -1,1 +1,7 @@
-dotfiles
+sbctl create-keys
+sbctl enroll-keys -m
+sudo sbctl sign -s /boot/EFI/BOOT/BOOTX64.EFI
+sudo sbctl sign -s /boot/EFI/Linux/arch-linux.efi
+sudo sbctl sign -s /boot/EFI/systemd/systemd-bootx64.efi
+sudo sbctl sign -s /boot/vmlinuz-linux
+sudo sbctl verify
