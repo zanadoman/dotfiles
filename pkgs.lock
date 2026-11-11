@@ -47,6 +47,7 @@ ca-certificates-utils
 cairo
 cairomm
 cairomm-1.16
+cccl
 cfitsio
 chromium
 claude-code
@@ -57,6 +58,7 @@ coreutils
 cpio
 cppdap
 cryptsetup
+cuda
 curl
 dav1d
 db5.3
@@ -120,6 +122,9 @@ gegl
 gettext
 gexiv2-common
 gflags
+ggml
+ggml-cuda
+ggml-vulkan
 giflib
 gimp
 git
@@ -487,6 +492,7 @@ linux-firmware-radeon
 linux-firmware-realtek
 linux-firmware-ti
 linux-firmware-whence
+llama-cpp
 llvm-libs
 lm_sensors
 lmdb
@@ -524,6 +530,7 @@ msgpack-c
 mtdev
 muparser
 mypaint-brushes
+nccl
 ncurses
 neovim
 nettle
@@ -543,15 +550,15 @@ ntsync-autoload
 numactl
 nvidia-open
 nvidia-utils
-ollama
-ollama-vulkan
 onetbb
+opencl-nvidia
 openexr
 openh264
 openjpeg2
 openjph
 openssh
 openssl
+openssl-3
 opus
 orc
 p11-kit

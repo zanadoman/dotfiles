@@ -13,12 +13,15 @@ fish
 foot
 fuzzel
 fzf
+ggml-cuda
+ggml-vulkan
 gimp
 github-cli
 grim
 hyprland
 lib32-nvidia-utils
 lib32-vulkan-radeon
+llama-cpp
 man-db
 man-pages
 mingw-w64-gcc
@@ -26,7 +29,6 @@ neovim
 network-manager-applet
 noto-fonts-emoji
 nvidia-open
-ollama-vulkan
 pavucontrol
 pi
 prismlauncher
