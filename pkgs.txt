@@ -30,7 +30,6 @@ network-manager-applet
 noto-fonts-emoji
 nvidia-open
 pavucontrol
-pi
 prismlauncher
 renderdoc
 ripgrep
