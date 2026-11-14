@@ -6,6 +6,7 @@ btop
 chromium
 claude-code
 cmake
+composer
 docker-compose
 docker-rootless-extras
 fastfetch
@@ -27,7 +28,9 @@ man-pages
 mingw-w64-gcc
 neovim
 network-manager-applet
+noto-fonts-cjk
 noto-fonts-emoji
+npm
 nvidia-open
 pavucontrol
 prismlauncher

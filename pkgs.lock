@@ -17,6 +17,7 @@ aom
 appstream
 aquamarine
 archlinux-keyring
+argon2
 asusctl
 at-spi2-core
 atkmm
@@ -53,6 +54,7 @@ chromium
 claude-code
 cmake
 cmark
+composer
 containerd
 coreutils
 cpio
@@ -541,6 +543,7 @@ nm-connection-editor
 node-gyp
 nodejs
 nodejs-nopt
+noto-fonts-cjk
 noto-fonts-emoji
 npm
 npth
@@ -551,6 +554,7 @@ numactl
 nvidia-open
 nvidia-utils
 onetbb
+oniguruma
 opencl-nvidia
 openexr
 openh264
@@ -579,6 +583,7 @@ perl
 perl-error
 perl-mailtools
 perl-timedate
+php
 pinentry
 pipewire
 pipewire-alsa
